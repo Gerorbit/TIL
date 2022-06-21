@@ -1,0 +1,31 @@
+//두 개의 문자열을 입력받아 같은 index에 문자가 같으면 O, 다르면 x를 출력
+#include <stdio.h>
+#include <string.h>
+
+int main(){
+	char s1[30];
+	char s2[30];
+	int len1=0,len2=0;
+	int max_len = 0;
+	char *ps1,*ps2;
+	
+	scanf("%s", s1);
+	scanf("%s", s2);
+	len1 = strlen(s1);
+	len2 = strlen(s2);
+	
+	if(len1>len2) max_len = len1;
+	else max_len = len2;
+	
+	ps1 = s1;
+	ps2 = s2;
+	int i;
+	
+	for(i=0;i<max_len;i++){
+		if(s1[i]==s2[i]) printf("O");
+		else printf("X");
+	
+	}
+
+
+}
