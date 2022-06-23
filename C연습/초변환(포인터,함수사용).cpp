@@ -5,18 +5,18 @@ void change_time(double time, int *hour,int *min,int *sec){
 	*min = (time - (*hour*3600)) / 60;
 	*sec = (time - *hour*3600-*min*60);
 	
-	printf("%.lfÃÊ´Â %d½Ã°£ %dºĞ %dÃÊ ÀÔ´Ï´Ù.",time,*hour,*min,*sec);  //ÇÔ¼ö ¾È¿¡ Æ÷ÀÎÅÍ¿Í ÇÔ¼ö ¹Û Ç¥ÇöÀÌ¶û ºñ±³!! 
+	printf("%.lfì´ˆëŠ” %dì‹œê°„ %dë¶„ %dì´ˆ ì…ë‹ˆë‹¤.",time,*hour,*min,*sec);  //í•¨ìˆ˜ ì•ˆì— í¬ì¸í„°ì™€ í•¨ìˆ˜ ë°– í‘œí˜„ì´ë‘ ë¹„êµ!! 
 } 
 
 int main(void){
 	double time;
 	int hour,min,sec;
 	
-	printf("º¯È¯ÇÏ·Á´Â ÃÊ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: \n");
+	printf("ë³€í™˜í•˜ë ¤ëŠ” ì´ˆë¥¼ ì…ë ¥í•˜ì„¸ìš”: \n");
 	scanf("%lf", &time);
 	
 	change_time(time, &hour,&min,&sec);
-	printf("%.lfÃÊ´Â %d½Ã°£ %dºĞ %dÃÊ ÀÔ´Ï´Ù.",time,hour,min,sec);
+	printf("%.lfì´ˆëŠ” %dì‹œê°„ %dë¶„ %dì´ˆ ì…ë‹ˆë‹¤.",time,hour,min,sec);
 	
 	return 0;
 }
