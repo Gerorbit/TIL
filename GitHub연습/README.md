@@ -23,7 +23,7 @@ C언어 Hello World추력
 
 된건가!?
 
-### <span style="color: red">```이용하는 방법(추천)</span>
+### <span style="color:red"> ```이용하는 방법(추천) </span>
 
 ``` C
       #include <stdio.h>
