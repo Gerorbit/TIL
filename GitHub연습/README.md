@@ -48,6 +48,5 @@ C언어 Hello World추력
 # 5)표만들기(프리미어리그 순위표)
 | 순위 | 팀 | 경기 | 승 | 무 | 패 | 득점 | 실점 | 득실차 | 승점
 | --- | ----------- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Content Cell | Content Cell  |
-| Content Cell | Content Cell  |
-출처: https://young-cow.tistory.com/25 [어린소:티스토리]
+| **1** | Content Cell  |
+| 2 | Content Cell  |
