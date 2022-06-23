@@ -24,3 +24,12 @@ C언어 Hello World추력
 된건가!?
 
 ### ```이용하는 방법
+
+``` C
+      #include <stdio.h>
+      
+      int main(void){
+          printf("Hello World!\n");
+          return 0;
+      }
+```
