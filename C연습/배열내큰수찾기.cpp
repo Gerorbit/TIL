@@ -7,8 +7,8 @@ int main(void){
 	int a[6] = {1,3,8,11,18,21};
 	find_num(a,sizeof(a)/sizeof(a[0]),&first,&second);
 	
-	printf("°¡Àå Å« °ªÀº : %d\n", first);
-	printf("µÎ¹øÂ°·Î Å« °ªÀº : %d\n", second);
+	printf("ê°€ì¥ í° ê°’ì€ : %d\n", first);
+	printf("ë‘ë²ˆì§¸ë¡œ í° ê°’ì€ : %d\n", second);
 	
 	return 0;
 } 
