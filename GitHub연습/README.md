@@ -9,16 +9,15 @@
 
 #1개와 #2개로 할 때는 밑에 선이 표시된다.(제목을 표현할 때 1개 or 2개 사용이 적절)
 
-# 코드블럭넣기
+# 2)코드블럭넣기
 
-code 1
-      code 2
+C언어 Hello World추력
+
       #include <stdio.h>
       
       int main(void){
           printf("Hello World!\n");
           return 0;
       }
-     
-code 3
-      
+
+된건가!?
