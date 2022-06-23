@@ -2,10 +2,10 @@
 void func(int (*fp)(int, int)){
 	int a,b;
 	int res;
-	printf("µÎ Á¤¼öÀÇ °ªÀ» ÀÔ·ÂÇÏ½Ã¿À :");
+	printf("ë‘ ì •ìˆ˜ì˜ ê°’ì„ ì…ë ¥í•˜ì‹œì˜¤ :");
 	scanf("%d %d", &a,&b);
 	res = fp(a,b);
-	printf("°á°ú°ªÀº : %d\n",res);
+	printf("ê²°ê³¼ê°’ì€ : %d\n",res);
 }
 
 int sum(int a,int b){
@@ -23,10 +23,10 @@ int max(int a,int b){
 
 int main(void){
 	int sel;
-	printf("1. µÎ Á¤¼öÀÇ ÇÕ\n");
-	printf("2. µÎ Á¤¼öÀÇ °ö\n");
-	printf("3. µÎ Á¤¼ö Áß Å« °ª °è»ê\n");
-	printf("¿øÇÏ´Â ¿¬»êÀ» ¼±ÅÃÇÏ¼¼¿ä:\n");
+	printf("1. ë‘ ì •ìˆ˜ì˜ í•©\n");
+	printf("2. ë‘ ì •ìˆ˜ì˜ ê³±\n");
+	printf("3. ë‘ ì •ìˆ˜ ì¤‘ í° ê°’ ê³„ì‚°\n");
+	printf("ì›í•˜ëŠ” ì—°ì‚°ì„ ì„ íƒí•˜ì„¸ìš”:\n");
 	scanf("%d",&sel);
 	
 	switch(sel){
