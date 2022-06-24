@@ -67,4 +67,12 @@ C언어 Hello World추력
 ***
 
 # 6) 이미지넣기
+### 마크다운 형식
+1. Issues에 들어가서 New issue를 클릭한다.
+2. 원하는 사진을 드래그해서 Leave a comment에 넣어준다.
+3. 사진을 넣어주면 주소값이 나오는데 그 값을 복사해서 원하는 README.md에 붙여넣기 해준다.
+4. 마크다운 형식은 이미지 크기 조절이 불가능하다.
 ![KakaoTalk_20220625_001707568](https://user-images.githubusercontent.com/99727385/175566297-b53313f6-4036-4810-bccd-a2e905c60676.jpg)
+
+### HTML 형식
+<img src="https://user-images.githubusercontent.com/23310187/34244435-91eab306-e668-11e7-8063-735dff683bf8.png" width="90%"></img>
