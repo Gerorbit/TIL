@@ -67,3 +67,4 @@ C언어 Hello World추력
 ***
 
 # 6) 이미지넣기
+![KakaoTalk_20220625_001707568](https://user-images.githubusercontent.com/99727385/175566297-b53313f6-4036-4810-bccd-a2e905c60676.jpg)
