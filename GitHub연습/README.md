@@ -79,5 +79,6 @@ C언어 Hello World추력
 2. 원하는 사진에 마우스 오른쪽클릭 후 이미지 주소 복사를 누른다.
 3. README.md로 돌아와서 <img src="복사한 주소 붙여넣기"></img> 형식으로 입력한다.
 4. HTML 형식에서는 width를 이용해 이미지의 크기 조절이 가능하다.
+
 <img src="https://kr.mancity.com/dist/images/logos/crest.svg" width="50%"></img>
 
